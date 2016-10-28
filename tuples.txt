@@ -1,0 +1,10 @@
+w, x, y = b
+print "D:", w, x, y
+try:
+    print "E", len(c)
+    (p, q, s, f) = c
+    print "F:", p, q, s, f
+except ValueError, descr:
+    print "*** That won't work:", descr, "***"
+(p, q, s, f) = c[:4]
+print "G:", p, q, s, f
